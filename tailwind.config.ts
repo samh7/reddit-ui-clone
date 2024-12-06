@@ -12,6 +12,12 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+        screens: {
+          'mobile': '480px', // Custom breakpoint for mobile devices
+          // 'tablet': '768px', // You can define other breakpoints as needed
+          // 'laptop': '1024px',
+          // 'desktop': '1280px',
+      }
     },
   },
   plugins: [],
